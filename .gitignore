@@ -1,0 +1,20 @@
+# Quartus build output
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.bak
+
+# ModelSim / Questa build and simulation output
+work/
+transcript
+*.wlf
+wlf*
+*.vstf
+*.vcd
+list.txt
+
+# ModelSim project files (contain machine-specific absolute paths)
+*.mpf
+*.cr.mti
